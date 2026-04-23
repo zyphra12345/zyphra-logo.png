@@ -9,11 +9,11 @@
 
 <style>
 body {
-    margin: 0;
-    font-family: 'Orbitron', sans-serif;
-    background: radial-gradient(circle, #020617, #000);
-    color: white;
-    text-align: center;
+img {
+    transition: 0.3s;
+}
+img:hover {
+    transform: scale(1.1);
 }
 
 /* HERO */
@@ -151,3 +151,4 @@ footer {
 
 </body>
 </html>
+<img src="zyphra-logo.png" alt="Zyphra Logo" style="width:120px; margin-bottom:20px; border-radius:50%;">
